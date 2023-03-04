@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="java.js"></script>
+    <title>Impar ou Par?</title>
+
+    <style>
+        body {
+            font-size: 100%;
+            background-image: linear-gradient(267deg, red, orange);
+        }
+
+        #numero {
+            width: 400px;
+            text-align: center;
+            margin: auto;
+            margin-top: 30px;
+        }
+
+        #div {
+            background-color: rgba(0, 0, 0, 0.229);
+            width: 900px;
+            height: 300px;
+            margin: auto;
+            margin-top: 100px;
+            text-align: center;
+            border-radius: 10px;
+
+        }
+
+        #button {
+            margin-top: 30px;
+        }
+
+        #h1 {
+            color: white;
+
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+
+<body>
+    <div id="div">
+
+        <h1 id="h1">Impar ou Par?</h1>
+        <input type="number" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default"
+            placeholder="digite o numero aqui" id="numero">
+
+
+        <button type="button" id="button" class="btn btn-success" onclick="verificar()">verificar</button>
+
+    </div>
+</body>
+
+</html>
